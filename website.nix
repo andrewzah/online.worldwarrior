@@ -1,7 +1,7 @@
 { stdenv, ... }:
 stdenv.mkDerivation {
   pname = "worldwarrior-online-html";
-  version = "0.1";
+  version = "0.1.0";
 
   src = ./src;
 
