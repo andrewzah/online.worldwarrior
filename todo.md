@@ -1,0 +1,4 @@
+- cross ref w/ super__yan's ss: https://docs.google.com/spreadsheets/d/1WF-v-Uny9JyRLOj5KB5Y0MKDNdZjX85_UTSfR9ol8Ac/edit?gid=969013027#gid=969013027
+- start.gg api: view top 8 / winners inline, * by name if they qualified
+- calendar view
+- indicate super regions

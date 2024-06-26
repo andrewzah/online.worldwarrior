@@ -67,7 +67,7 @@
         var timezoneElement = document.getElementById('data-user-timezone');
 
         if (userTimeZone != null) {
-          timezoneElement.innerHTML = 'Your timezone appears to be <b>' + userTimeZone + '</b>.';
+          timezoneElement.innerHTML = 'Times shown are relative to your timezone, which appears to be <b>' + userTimeZone + '</b>.';
         } else {
           timezoneElement.innerHTML = "Unable to determine your system timezone, so times may not render properly.";
         }
