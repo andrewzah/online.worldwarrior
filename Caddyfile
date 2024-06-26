@@ -1,0 +1,6 @@
+:2020 {
+  root * /var/www/online.worldwarrior
+  file_server
+
+  encode gzip
+}

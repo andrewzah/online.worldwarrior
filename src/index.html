@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Test </title>
+    <style>
+      body {
+        background: rgb(253,253,253);
+        color: rgb(10,10,10);
+      }
+      #data-container {
+        @media (max-width: 799px) {
+          max-width: 80vw;
+        }
+        @media (min-width: 800px) {
+          max-width: 40vw;
+        }
+        margin: 0 auto;
+      }
+      ul {
+        padding: 0px;
+      }
+      ul.horizontal-list > li {
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      #data-future-events > div {
+        padding: 5px;
+        margin: 5px 0;
+        border: 2px solid #333;
+        border-radius: 2px;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script type="module">
+      window.addEventListener('load', async () => {
+        const data = await fetchData();
+        injectMetadata();
+        if (data) {
+          injectData(data);
+        }
+      });
+
+      const injectMetadata = () => {
+        const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        var timezoneElement = document.getElementById('data-user-timezone');
+
+        if (userTimeZone != null) {
+          timezoneElement.innerHTML = 'Your timezone appears to be <b>' + userTimeZone + '</b>.';
+        } else {
+          timezoneElement.innerHTML = "Unable to determine your system timezone, so times may not render properly.";
+        }
+      };
+
+      const fetchData = async () => {
+        try {
+          const response = await fetch('/events.json');
+          const data = await response.json();
+          return data;
+        } catch (error) {
+          console.error("Error fetching data:", error);
+        }
+      };
+
+      const injectData = (data) => {
+        const futureEventsContainer = document.getElementById('data-future-events');
+        const pastEventsContainer = document.getElementById('data-past-events');
+
+        var events = [];
+        const currentDate = new Date();
+        const momentCurrentDate = moment(currentDate);
+
+        data.forEach((object) => {
+          // Create a new div for each object
+          const newDiv = document.createElement('div');
+
+          const relBracketDate = new Date(object.bracket_start_date)
+          const relBracketDateText = moment(relBracketDate).from(momentCurrentDate);
+
+          const relTop8Date = new Date(object.top8_start_date)
+          const relTop8DateText = moment(relTop8Date).from(momentCurrentDate);
+
+          var linksString = "";
+          var links = [
+            { type: "start.gg", url: object.startgg_link },
+            { type: "twitch", url: object.twitch_url },
+            { type: "youtube", url: object.youtube_url },
+            { type: "other", url: object.other_url },
+          ];
+          links = links.filter((link) => link.url != "");
+          if (links.length > 0) {
+            linksString = "links: ";
+            links.forEach((link) => {
+              linksString = linksString + `<li> <a href="${link.url}">${link.type}</a></li>`;
+            });
+          }
+
+          var timesString = "";
+          if (object.region_event.toLowerCase().includes('final')) {
+            timesString = `
+              <p> Bracket start: <span id="date-${object.region_event}" title="${relBracketDate}">${relBracketDateText} (${relBracketDate.toLocaleString()})</p>
+            `;
+          } else {
+            timesString = `
+              <p> Bracket start: <span id="date-${object.region_event}" title="${relBracketDate}">${relBracketDateText} (${relBracketDate.toLocaleString()})</p>
+              <p> Top 8 start: <span id="date-${object.region_event}" title="${relTop8Date}">${relBracketDateText} (${relTop8Date.toLocaleString()})</p>
+            `;
+          };
+
+          // Access and inject object properties into the div content
+          newDiv.innerHTML = `
+            <h2><a href="${object.startgg_link}">${object.region_event}</a></h2>
+            <div class="links">
+              ${timesString}
+              <ul class="horizontal-list">
+                ${linksString}
+              </ul>
+            </div>
+          `;
+
+          events.push({ div: newDiv, date: relBracketDate });
+        });
+
+        events = events.sort((a, b) => a.date - b.date);
+        const pastEvents = events.filter((ev) => ev.date < currentDate);
+        const futureEvents = events.filter((ev) => ev.date >= currentDate);
+
+        futureEvents.forEach((ev) => { futureEventsContainer.appendChild(ev.div); });
+        pastEvents.forEach((ev) => { pastEventsContainer.appendChild(ev.div); });
+      };
+    </script>
+  </head>
+  <body>
+    <div id="data-container">
+      <div id="metadata">
+        <p>
+          I made this site to keep track of all of the <a href="https://sf.esports.capcom.com/cpt/schedule/?tab=2">World Warrior</a> events and their streams.
+          All relevant copyright belongs to Capcom, etc.
+        </p>
+        <p>
+          To report issues, suggestions, or inquiries: <a href="mailto:worldwarrior@andrewzah.com">worldwarrior@andrewzah.com</a>.
+          For programmers, this site's source code is located on <a href="https://github.com/andrewzah/online.worldwarrior">github</a>.
+        </p>
+        <p id="data-user-timezone"></p>
+      </div>
+    <hr>
+    <div id="data-future-events"></div>
+    <hr>
+    <h1> Past Events </h1>
+    <div id="data-past-events"></div>
+    </div>
+  </body>
+</html>
