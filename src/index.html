@@ -76,7 +76,7 @@
 
       const fetchData = async () => {
         try {
-          const response = await fetch('/events.json');
+          const response = await fetch('/events-3784ccf62c.json');
           const data = await response.json();
           return data;
         } catch (error) {
@@ -100,7 +100,14 @@
           const relBracketDate = new Date(object.bracket_start_date)
           const relBracketDateText = moment(relBracketDate).from(momentCurrentDate);
 
-          const relTop8Date = new Date(object.top8_start_date)
+          var relTop8Date;
+          if (object.top8_start_date === "") {
+            // .getTime() returns in millis
+            relTop8Date = new Date(relBracketDate.getTime() + (2*60*60*1000));
+          } else {
+            relTop8Date = new Date(object.top8_start_date);
+          };
+
           const relTop8DateText = moment(relTop8Date).from(momentCurrentDate);
 
           var linksString = "";
@@ -125,14 +132,24 @@
             `;
           } else {
             timesString = `
-              <p> Bracket start: <span id="date-${object.region_event}" title="${relBracketDate}">${relBracketDateText} (${relBracketDate.toLocaleString()})</p>
-              <p> Top 8 start: <span id="date-${object.region_event}" title="${relTop8Date}">${relBracketDateText} (${relTop8Date.toLocaleString()})</p>
+              <p>
+                Bracket start:
+                <span id="date-${object.region_event}" title="${relBracketDate}">
+                  ${relBracketDateText} (${relBracketDate.toLocaleString()})
+                </span>
+              </p>
+              <p>
+                Top 8 start:
+                <span id="date-${object.region_event}" title="${relTop8Date}">
+                  ${relBracketDateText} (${relTop8Date.toLocaleString()})${object.top8_start_date === "" ? "* <i>(estimated)</i>" : ""}
+                </span>
+              </p>
             `;
           };
 
           // Access and inject object properties into the div content
           newDiv.innerHTML = `
-            <h2><a href="${object.startgg_link}">${object.region_event}</a></h2>
+            <h2><a href="${object.startgg_link}">${object.region_event}${object.super_region === "y" ? " (Super Region)" : ""}</a></h2>
             <div class="links">
               ${timesString}
               <ul class="horizontal-list">
@@ -192,14 +209,13 @@
     <hr/>
     <label for="searchbox">Search:</label>
     <input
-      type="search" 
-      oninput="liveSearch()" 
-      id="searchbox" 
+      type="search"
+      oninput="liveSearch()"
+      id="searchbox"
     >
     <hr/>
     <div id="data-future-events"></div>
     <hr>
-    <h1> Past Events </h1>
     <div id="data-past-events"></div>
     </div>
     <script data-goatcounter="https://stats.worldwarrior.online/count"

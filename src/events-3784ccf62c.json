@@ -2,6 +2,7 @@
     {
         "startgg_link": "",
         "region_event": "Asia #1",
+        "super_region": "y",
         "date": "",
         "bracket_start_date": "",
         "top8_start_date": "",
@@ -9,11 +10,12 @@
         "twitch_url": "",
         "youtube_url": "",
         "notes": "assume Top 8 is 2 hours after bracket starts, if no explicit date set",
-        "": "#ERROR!"
+        "": "Loading..."
     },
     {
         "startgg_link": "",
         "region_event": "Asia #2",
+        "super_region": "y",
         "date": "TBD",
         "bracket_start_date": "",
         "top8_start_date": "",
@@ -26,6 +28,7 @@
     {
         "startgg_link": "",
         "region_event": "Asia #3",
+        "super_region": "y",
         "date": "TBD",
         "bracket_start_date": "",
         "top8_start_date": "",
@@ -38,6 +41,7 @@
     {
         "startgg_link": "",
         "region_event": "Asia #4",
+        "super_region": "y",
         "date": "TBD",
         "bracket_start_date": "",
         "top8_start_date": "",
@@ -50,6 +54,7 @@
     {
         "startgg_link": "",
         "region_event": "Asia #5",
+        "super_region": "y",
         "date": "TBD",
         "bracket_start_date": "",
         "top8_start_date": "",
@@ -62,6 +67,7 @@
     {
         "startgg_link": "",
         "region_event": "Asia - Regional Final",
+        "super_region": "y",
         "date": "TBD",
         "bracket_start_date": "",
         "top8_start_date": "",
@@ -74,6 +80,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/spiritzero-x-world-warrior-2024-south-korea-1/details",
         "region_event": "South Korea #1",
+        "super_region": "",
         "date": "2024-06-28",
         "bracket_start_date": "2024-06-28T21:00+09:00",
         "top8_start_date": "2024-06-29T00:00+09:00",
@@ -86,6 +93,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/spiritzero-x-world-warrior-2024-south-korea-2/details",
         "region_event": "South Korea #2",
+        "super_region": "",
         "date": "2024-07-26",
         "bracket_start_date": "2024-07-26T21:00+09:00",
         "top8_start_date": "2024-07-27T00:00+09:00",
@@ -98,6 +106,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/spiritzero-x-world-warrior-2024-south-korea-3/details",
         "region_event": "South Korea #3",
+        "super_region": "",
         "date": "2024-08-30",
         "bracket_start_date": "2024-08-30T21:00+09:00",
         "top8_start_date": "2024-08-31T00:00+09:00",
@@ -110,6 +119,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/spiritzero-x-world-warrior-2024-south-korea-4/details",
         "region_event": "South Korea #4",
+        "super_region": "",
         "date": "2024-09-20",
         "bracket_start_date": "2024-09-20T21:00+09:00",
         "top8_start_date": "2024-09-21T00:00+09:00",
@@ -122,6 +132,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/spiritzero-x-world-warrior-2024-south-korea-5/details",
         "region_event": "South Korea #5",
+        "super_region": "",
         "date": "2024-10-25",
         "bracket_start_date": "2024-10-25T21:00+09:00",
         "top8_start_date": "2024-10-26T00:00+09:00",
@@ -134,6 +145,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/spiritzero-x-world-warrior-2024-south-korea-final/details",
         "region_event": "South Korea - Regional Final",
+        "super_region": "",
         "date": "2024-11-29",
         "bracket_start_date": "2024-11-29T21:00+09:00",
         "top8_start_date": "",
@@ -146,9 +158,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/aubycup-world-warrior-2024-asia-east-1/details",
         "region_event": "Asia East #1",
+        "super_region": "y",
         "date": "2024-07-06",
         "bracket_start_date": "2024-07-06T13:00+08:00",
-        "top8_start_date": "2024-07-06T19:00+08:00",
+        "top8_start_date": "2024-07-07T18:00+08:00",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/firemanruby2",
         "youtube_url": "https://www.youtube.com/channel/UCVry0Zft52zCoF_pcXcTRVw",
@@ -158,9 +171,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/aubycup-world-warrior-2024-asia-east-2/details",
         "region_event": "Asia East #2",
+        "super_region": "y",
         "date": "2024-08-03",
         "bracket_start_date": "2024-08-03T13:00+08:00",
-        "top8_start_date": "2024-08-03T19:00+08:00",
+        "top8_start_date": "2024-08-04T18:00+08:00",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/firemanruby2",
         "youtube_url": "https://www.youtube.com/channel/UCVry0Zft52zCoF_pcXcTRVw",
@@ -170,9 +184,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/aubycup-world-warrior-2024-asia-east-3/details",
         "region_event": "Asia East #3",
+        "super_region": "y",
         "date": "2024-09-21",
         "bracket_start_date": "2024-09-21T13:00+08:00",
-        "top8_start_date": "2024-09-21T19:00+08:00",
+        "top8_start_date": "2024-09-22T18:00+08:00",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/firemanruby2",
         "youtube_url": "https://www.youtube.com/channel/UCVry0Zft52zCoF_pcXcTRVw",
@@ -182,9 +197,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/aubycup-world-warrior-2024-asia-east-4/details",
         "region_event": "Asia East #4",
+        "super_region": "y",
         "date": "2024-10-26",
         "bracket_start_date": "2024-10-26T13:00+08:00",
-        "top8_start_date": "2024-10-26T19:00+08:00",
+        "top8_start_date": "2024-10-27T18:00+08:00",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/firemanruby2",
         "youtube_url": "https://www.youtube.com/channel/UCVry0Zft52zCoF_pcXcTRVw",
@@ -194,9 +210,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/aubycup-world-warrior-2024-asia-east-5/details",
         "region_event": "Asia East #5",
+        "super_region": "y",
         "date": "2024-11-16",
         "bracket_start_date": "2024-11-16T13:00+08:00",
-        "top8_start_date": "2024-11-16T19:00+08:00",
+        "top8_start_date": "2024-11-17T18:00+08:00",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/firemanruby2",
         "youtube_url": "https://www.youtube.com/channel/UCVry0Zft52zCoF_pcXcTRVw",
@@ -206,6 +223,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/aubycup-world-warrior-2024-asia-east-regional-final/details",
         "region_event": "Asia East - Regional Final",
+        "super_region": "y",
         "date": "2024-12-07",
         "bracket_start_date": "2024-12-07T19:00+08:00",
         "top8_start_date": "",
@@ -218,10 +236,11 @@
     {
         "startgg_link": "",
         "region_event": "Japan #1",
+        "super_region": "y",
         "date": "2024-07-28",
         "bracket_start_date": "2024-07-28T16:30+09:00",
-        "top8_start_date": "2024-07-28T19:00+09:00",
-        "other_url": "",
+        "top8_start_date": "",
+        "other_url": "https://t.livepocket.jp/e/r8p01",
         "twitch_url": "",
         "youtube_url": "",
         "notes": "a bit unique due to the public viewing + tix situation",
@@ -230,9 +249,10 @@
     {
         "startgg_link": "",
         "region_event": "Japan #2",
+        "super_region": "y",
         "date": "2024-09-01",
         "bracket_start_date": "2024-09-01T16:30+09:00",
-        "top8_start_date": "2024-09-01T19:00+09:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "",
         "youtube_url": "",
@@ -242,9 +262,10 @@
     {
         "startgg_link": "",
         "region_event": "Japan #3",
+        "super_region": "y",
         "date": "2024-10-06",
         "bracket_start_date": "2024-10-06T16:30+09:00",
-        "top8_start_date": "2024-10-06T19:00+09:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "",
         "youtube_url": "",
@@ -254,9 +275,10 @@
     {
         "startgg_link": "",
         "region_event": "Japan #4",
+        "super_region": "y",
         "date": "2024-11-17",
         "bracket_start_date": "2024-11-17T16:30+09:00",
-        "top8_start_date": "2024-11-17T19:00+09:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "",
         "youtube_url": "",
@@ -266,9 +288,10 @@
     {
         "startgg_link": "",
         "region_event": "Japan #5",
+        "super_region": "y",
         "date": "2024-12-08",
         "bracket_start_date": "2024-12-08T16:30+09:00",
-        "top8_start_date": "2024-12-08T19:00+09:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "",
         "youtube_url": "",
@@ -278,6 +301,7 @@
     {
         "startgg_link": "",
         "region_event": "Japan - Regional Final",
+        "super_region": "y",
         "date": "2025-01-19",
         "bracket_start_date": "",
         "top8_start_date": "",
@@ -290,9 +314,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/versus-masters-world-warrior-2024-asia-southeast-1/details",
         "region_event": "Asia South East #1",
+        "super_region": "y",
         "date": "2024-07-07",
         "bracket_start_date": "2024-07-07T12:00+08:00",
-        "top8_start_date": "2024-07-07T14:00+08:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/versusasia",
         "youtube_url": "https://www.youtube.com/@Versusvortex",
@@ -302,9 +327,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/versus-masters-world-warrior-2024-asia-southeast-2/details",
         "region_event": "Asia South East #2",
+        "super_region": "y",
         "date": "2024-07-28",
         "bracket_start_date": "2024-07-26T12:00+08:00",
-        "top8_start_date": "2024-07-26T14:00+08:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/versusasia",
         "youtube_url": "https://www.youtube.com/@Versusvortex",
@@ -314,9 +340,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/versus-masters-world-warrior-2024-asia-southeast-3/details",
         "region_event": "Asia South East #3",
+        "super_region": "y",
         "date": "2024-08-18",
         "bracket_start_date": "2024-08-18T12:00+08:00",
-        "top8_start_date": "2024-08-18T14:00+08:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/versusasia",
         "youtube_url": "https://www.youtube.com/@Versusvortex",
@@ -326,9 +353,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/versus-masters-world-warrior-2024-asia-southeast-4/details",
         "region_event": "Asia South East #4",
+        "super_region": "y",
         "date": "2024-09-08",
         "bracket_start_date": "2024-09-08T12:00+08:00",
-        "top8_start_date": "2024-09-08T14:00+08:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/versusasia",
         "youtube_url": "https://www.youtube.com/@Versusvortex",
@@ -338,9 +366,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/versus-masters-world-warrior-2024-asia-southeast-5/details",
         "region_event": "Asia South East #5",
+        "super_region": "y",
         "date": "2024-10-27",
         "bracket_start_date": "2024-10-27T12:00+08:00",
-        "top8_start_date": "2024-10-27T14:00+08:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/versusasia",
         "youtube_url": "https://www.youtube.com/@Versusvortex",
@@ -350,6 +379,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/versus-masters-world-warrior-2024-asia-southeast-finale/details",
         "region_event": "Asia South East - Regional Final",
+        "super_region": "y",
         "date": "2024-12-07",
         "bracket_start_date": "",
         "top8_start_date": "",
@@ -362,6 +392,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/fighters-dojo-world-warrior-2024-asia-south-1/details",
         "region_event": "Asia South #1",
+        "super_region": "",
         "date": "2024-06-30",
         "bracket_start_date": "2024-06-30T14:00+05:30",
         "top8_start_date": "2024-06-30T20:00+05:30",
@@ -374,6 +405,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/fighters-dojo-world-warrior-2024-asia-south-2/details",
         "region_event": "Asia South #2",
+        "super_region": "",
         "date": "2024-07-28",
         "bracket_start_date": "2024-07-28T14:00+05:30",
         "top8_start_date": "2024-07-28T20:00+05:30",
@@ -386,6 +418,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/fighters-dojo-world-warrior-2024-asia-south-3/details",
         "region_event": "Asia South #3",
+        "super_region": "",
         "date": "2024-08-18",
         "bracket_start_date": "2024-08-18T14:00+05:30",
         "top8_start_date": "2024-08-18T20:00+05:30",
@@ -398,6 +431,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/fighters-dojo-world-warrior-2024-asia-south-4/details",
         "region_event": "Asia South #4",
+        "super_region": "",
         "date": "2024-09-22",
         "bracket_start_date": "2024-09-22T14:00+05:30",
         "top8_start_date": "2024-09-22T20:00+05:30",
@@ -410,6 +444,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/fighters-dojo-world-warrior-2024-asia-south-5/details",
         "region_event": "Asia South #5",
+        "super_region": "",
         "date": "2024-10-27",
         "bracket_start_date": "2024-10-27T14:00+05:30",
         "top8_start_date": "2024-10-27T20:00+05:30",
@@ -422,6 +457,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/fighters-dojo-world-warrior-2024-asia-south-regional-final/details",
         "region_event": "Asia South - Regional Final",
+        "super_region": "",
         "date": "2024-11-24",
         "bracket_start_date": "2024-10-27T17:00+05:30",
         "top8_start_date": "",
@@ -434,6 +470,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/unga-world-warrior-2024-oceania-1/details",
         "region_event": "Oceania #1",
+        "super_region": "",
         "date": "2024-07-07",
         "bracket_start_date": "2024-07-07T13:30+10:00",
         "top8_start_date": "2024-07-07T15:30+10:00",
@@ -446,6 +483,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/unga-world-warrior-2024-oceania-2/details",
         "region_event": "Oceania #2",
+        "super_region": "",
         "date": "2024-07-28",
         "bracket_start_date": "2024-07-28T13:30+10:00",
         "top8_start_date": "2024-07-28T15:30+10:00",
@@ -458,6 +496,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/unga-world-warrior-2024-oceania-3/details",
         "region_event": "Oceania #3",
+        "super_region": "",
         "date": "2024-08-18",
         "bracket_start_date": "2024-08-18T13:30+10:00",
         "top8_start_date": "2024-08-18T15:30+10:00",
@@ -470,6 +509,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/unga-world-warrior-2024-oceania-4/details",
         "region_event": "Oceania #4",
+        "super_region": "",
         "date": "2024-09-22",
         "bracket_start_date": "2024-09-22T13:30+10:00",
         "top8_start_date": "2024-09-22T15:30+10:00",
@@ -482,6 +522,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/unga-world-warrior-2024-oceania-5/details",
         "region_event": "Oceania #5",
+        "super_region": "",
         "date": "2024-10-27",
         "bracket_start_date": "2024-10-27T13:30+10:00",
         "top8_start_date": "2024-10-27T15:30+10:00",
@@ -494,6 +535,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/unga-world-warrior-2024-oceania-final/details",
         "region_event": "Oceania - Regional Final",
+        "super_region": "",
         "date": "2024-11-24",
         "bracket_start_date": "2024-11-24T14:30+10:00",
         "top8_start_date": "",
@@ -506,6 +548,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/br-kumite-world-warrior-2024-brazil-1/details",
         "region_event": "Brazil #1",
+        "super_region": "y",
         "date": "2024-07-03",
         "bracket_start_date": "2024-07-03T20:00-03:00",
         "top8_start_date": "2024-07-04T20:00-03:00",
@@ -518,6 +561,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/br-kumite-world-warrior-2024-brazil-2/details",
         "region_event": "Brazil #2",
+        "super_region": "y",
         "date": "2024-07-31",
         "bracket_start_date": "2024-07-31T20:00-03:00",
         "top8_start_date": "2024-08-01T20:00-03:00",
@@ -530,6 +574,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/br-kumite-world-warrior-2024-brazil-3/details",
         "region_event": "Brazil #3",
+        "super_region": "y",
         "date": "2024-08-14",
         "bracket_start_date": "2024-08-14T20:00-03:00",
         "top8_start_date": "2024-08-15T20:00-03:00",
@@ -542,6 +587,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/br-kumite-world-warrior-2024-brazil-4/details",
         "region_event": "Brazil #4",
+        "super_region": "y",
         "date": "2024-09-25",
         "bracket_start_date": "2024-09-25T20:00-03:00",
         "top8_start_date": "2024-09-26T20:00-03:00",
@@ -554,6 +600,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/br-kumite-world-warrior-2024-brazil-5/details",
         "region_event": "Brazil #5",
+        "super_region": "y",
         "date": "2024-10-23",
         "bracket_start_date": "2024-10-23T20:00-03:00",
         "top8_start_date": "2024-10-24T20:00-03:00",
@@ -566,6 +613,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/br-kumite-world-warrior-2024-brazil-regional-final/",
         "region_event": "Brazil - Regional Final",
+        "super_region": "y",
         "date": "2024-11-20",
         "bracket_start_date": "",
         "top8_start_date": "",
@@ -578,6 +626,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/blink-battleground-world-warrior-2024-ca-east-1/details",
         "region_event": "Central America East #1",
+        "super_region": "",
         "date": "2024-06-22",
         "bracket_start_date": "2024-06-22T15:00-03:00",
         "top8_start_date": "2024-06-22T20:00-03:00",
@@ -590,6 +639,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/blink-battleground-world-warrior-2024-ca-east-2/details",
         "region_event": "Central America East #2",
+        "super_region": "",
         "date": "2024-07-13",
         "bracket_start_date": "2024-07-13T15:00-03:00",
         "top8_start_date": "2024-07-13T20:00-03:00",
@@ -602,6 +652,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/blink-battleground-world-warrior-2024-ca-east-3/details",
         "region_event": "Central America East #3",
+        "super_region": "",
         "date": "2024-08-17",
         "bracket_start_date": "2024-08-17T15:00-03:00",
         "top8_start_date": "2024-08-17T20:00-03:00",
@@ -614,6 +665,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/blink-battleground-world-warrior-2024-ca-east-4/details",
         "region_event": "Central America East #4",
+        "super_region": "",
         "date": "2024-09-21",
         "bracket_start_date": "2024-09-21T15:00-03:00",
         "top8_start_date": "2024-09-21T20:00-03:00",
@@ -626,6 +678,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/blink-battleground-world-warrior-2024-ca-east-5/details",
         "region_event": "Central America East #5",
+        "super_region": "",
         "date": "2024-10-26",
         "bracket_start_date": "2024-10-26T15:00-03:00",
         "top8_start_date": "2024-10-26T20:00-03:00",
@@ -638,6 +691,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/blink-battleground-world-warrior-2024-ca-east-regional-final/details",
         "region_event": "Central America East - Regional Final",
+        "super_region": "",
         "date": "2024-11-16",
         "bracket_start_date": "2024-11-16T20:00-03:00",
         "top8_start_date": "",
@@ -650,6 +704,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/latam-fist-world-warrior-2024-ca-west-1/details",
         "region_event": "Central America West #1",
+        "super_region": "",
         "date": "2024-06-29",
         "bracket_start_date": "2024-06-29T20:00-04:00",
         "top8_start_date": "2024-06-30T18:00-04:00",
@@ -662,6 +717,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/latam-fist-world-warrior-2024-ca-west-2/details",
         "region_event": "Central America West #2",
+        "super_region": "",
         "date": "2024-07-13",
         "bracket_start_date": "2024-07-13T20:00-04:00",
         "top8_start_date": "2024-07-14T18:00-04:00",
@@ -674,6 +730,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/latam-fist-world-warrior-2024-ca-west-3/details",
         "region_event": "Central America West #3",
+        "super_region": "",
         "date": "2024-08-03",
         "bracket_start_date": "2024-08-03T20:00-04:00",
         "top8_start_date": "2024-08-04T18:00-04:00",
@@ -686,6 +743,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/latam-fist-world-warrior-2024-ca-west-4/details",
         "region_event": "Central America West #4",
+        "super_region": "",
         "date": "2024-09-28",
         "bracket_start_date": "2024-09-28T20:00-04:00",
         "top8_start_date": "2024-09-29T18:00-04:00",
@@ -698,6 +756,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/latam-fist-world-warrior-2024-ca-west-5/details",
         "region_event": "Central America West #5",
+        "super_region": "",
         "date": "2024-10-26",
         "bracket_start_date": "2024-10-26T20:00-04:00",
         "top8_start_date": "2024-10-27T18:00-04:00",
@@ -710,6 +769,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/latam-fist-world-warrior-2024-ca-west-final/details",
         "region_event": "Central America West - Regional Final",
+        "super_region": "",
         "date": "2024-11-16",
         "bracket_start_date": "2024-11-16T18:00-04:00",
         "top8_start_date": "",
@@ -722,6 +782,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/mexican-mash-series-world-warrior-2024-mexico-1/details",
         "region_event": "Mexico #1",
+        "super_region": "",
         "date": "2024-06-29",
         "bracket_start_date": "2024-06-29T17:00-05:00",
         "top8_start_date": "2024-06-30T17:00-05:00",
@@ -734,6 +795,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/mexican-mash-series-world-warrior-2024-mexico-2/details",
         "region_event": "Mexico #2",
+        "super_region": "",
         "date": "2024-08-03",
         "bracket_start_date": "2024-08-03T17:00-05:00",
         "top8_start_date": "2024-08-04T17:00-05:00",
@@ -746,6 +808,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/mexican-mash-series-world-warrior-2024-mexico-3/details",
         "region_event": "Mexico #3",
+        "super_region": "",
         "date": "2024-08-17",
         "bracket_start_date": "2024-08-17T17:00-05:00",
         "top8_start_date": "2024-08-18T17:00-05:00",
@@ -758,6 +821,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/mexican-mash-series-world-warrior-2024-mexico-4/details",
         "region_event": "Mexico #4",
+        "super_region": "",
         "date": "2024-09-21",
         "bracket_start_date": "2024-09-21T17:00-05:00",
         "top8_start_date": "2024-09-22T17:00-05:00",
@@ -770,6 +834,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/mexican-mash-series-world-warrior-2024-mexico-5/details",
         "region_event": "Mexico #5",
+        "super_region": "",
         "date": "2024-10-26",
         "bracket_start_date": "2024-10-26T17:00-05:00",
         "top8_start_date": "2024-10-27T17:00-05:00",
@@ -782,6 +847,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/mexican-mash-series-world-warrior-2024-regional-final/details",
         "region_event": "Mexico - Regional Final",
+        "super_region": "",
         "date": "2024-11-30",
         "bracket_start_date": "2024-11-30T17:00-05:00",
         "top8_start_date": "",
@@ -794,6 +860,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/de-la-calle-world-warrior-2024-sa-east-1/details",
         "region_event": "South America East #1",
+        "super_region": "y",
         "date": "2024-07-06",
         "bracket_start_date": "2024-07-06T15:00-03:00",
         "top8_start_date": "2024-07-07T20:00-03:00",
@@ -806,6 +873,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/de-la-calle-world-warrior-2024-sa-east-2/details",
         "region_event": "South America East #2",
+        "super_region": "y",
         "date": "2024-07-27",
         "bracket_start_date": "2024-07-27T15:00-03:00",
         "top8_start_date": "2024-07-28T20:00-03:00",
@@ -818,6 +886,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/de-la-calle-world-warrior-2024-sa-east-3/details",
         "region_event": "South America East #3",
+        "super_region": "y",
         "date": "2024-08-17",
         "bracket_start_date": "2024-08-17T15:00-03:00",
         "top8_start_date": "2024-08-18T20:00-03:00",
@@ -830,6 +899,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/de-la-calle-world-warrior-2024-sa-east-4/details",
         "region_event": "South America East #4",
+        "super_region": "y",
         "date": "2024-09-21",
         "bracket_start_date": "2024-09-21T15:00-03:00",
         "top8_start_date": "2024-09-22T20:00-03:00",
@@ -842,6 +912,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/de-la-calle-world-warrior-2024-sa-east-5/details",
         "region_event": "South America East #5",
+        "super_region": "y",
         "date": "2024-10-26",
         "bracket_start_date": "2024-10-26T15:00-03:00",
         "top8_start_date": "2024-10-27T20:00-03:00",
@@ -854,6 +925,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/de-la-calle-world-warrior-2024-sa-east-finals/details",
         "region_event": "South America East - Regional Final",
+        "super_region": "y",
         "date": "2024-11-16",
         "bracket_start_date": "2024-11-16T20:00-03:00",
         "top8_start_date": "",
@@ -866,6 +938,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/champion-s-road-world-warrior-2024-sa-west-1/details",
         "region_event": "South America West #1",
+        "super_region": "",
         "date": "2024-07-06",
         "bracket_start_date": "2024-07-06T20:00-04:00",
         "top8_start_date": "2024-07-07T18:00-04:00",
@@ -878,6 +951,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/champion-s-road-world-warrior-2024-sa-west-2/details",
         "region_event": "South America West #2",
+        "super_region": "",
         "date": "2024-08-10",
         "bracket_start_date": "2024-08-10T20:00-04:00",
         "top8_start_date": "2024-08-11T18:00-04:00",
@@ -890,6 +964,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/champion-s-road-world-warrior-2024-sa-west-3/details",
         "region_event": "South America West #3",
+        "super_region": "",
         "date": "2024-09-21",
         "bracket_start_date": "2024-09-21T20:00-04:00",
         "top8_start_date": "2024-09-22T18:00-04:00",
@@ -902,6 +977,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/champion-s-road-world-warrior-2024-sa-west-4/details",
         "region_event": "South America West #4",
+        "super_region": "",
         "date": "2024-10-26",
         "bracket_start_date": "2024-10-26T20:00-04:00",
         "top8_start_date": "2024-10-27T18:00-04:00",
@@ -914,6 +990,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/champion-s-road-world-warrior-2024-sa-west-5/details",
         "region_event": "South America West #5",
+        "super_region": "",
         "date": "2024-11-16",
         "bracket_start_date": "2024-11-16T20:00-04:00",
         "top8_start_date": "2024-11-17T18:00-04:00",
@@ -926,6 +1003,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/champion-s-road-world-warrior-2024-sa-west-final/details",
         "region_event": "South America West - Regional Final",
+        "super_region": "",
         "date": "2024-11-24",
         "bracket_start_date": "2024-11-24T18:00-04:00",
         "top8_start_date": "",
@@ -938,9 +1016,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-uk-ireland-1/details",
         "region_event": "UK/Ireland #1",
+        "super_region": "y",
         "date": "2024-06-22",
         "bracket_start_date": "2024-06-22T16:00+00:00",
-        "top8_start_date": "2024-06-22T18:00+00:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -950,9 +1029,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-uk-ireland-2/details",
         "region_event": "UK/Ireland #2",
+        "super_region": "y",
         "date": "2024-07-06",
         "bracket_start_date": "2024-07-06T16:00+00:00",
-        "top8_start_date": "2024-07-06T18:00+00:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -962,9 +1042,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-uk-ireland-3/details",
         "region_event": "UK/Ireland #3",
+        "super_region": "y",
         "date": "2024-08-15",
         "bracket_start_date": "2024-08-15T16:00+00:00",
-        "top8_start_date": "2024-08-15T18:00+00:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -974,9 +1055,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-uk-ireland-4/details",
         "region_event": "UK/Ireland #4",
+        "super_region": "y",
         "date": "2024-09-21",
         "bracket_start_date": "2024-09-21T16:00+00:00",
-        "top8_start_date": "2024-09-21T18:00+00:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -986,9 +1068,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-uk-ireland-5/details",
         "region_event": "UK/Ireland #5",
+        "super_region": "y",
         "date": "2024-10-26",
         "bracket_start_date": "2024-10-26T16:00+00:00",
-        "top8_start_date": "2024-10-26T18:00+00:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -998,6 +1081,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-uk-ireland-final/details",
         "region_event": "UK/Ireland - Regional Final",
+        "super_region": "y",
         "date": "2024-11-30",
         "bracket_start_date": "2024-11-30T18:00+00:00",
         "top8_start_date": "",
@@ -1010,9 +1094,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/set-reset-world-warrior-2024-france-1/details",
         "region_event": "France/Monaco #1",
+        "super_region": "y",
         "date": "2024-06-21",
         "bracket_start_date": "2024-06-22T19:00+02:00",
-        "top8_start_date": "2024-06-22T21:00+02:00",
+        "top8_start_date": "2024-06-22T17:00+02:00",
         "other_url": "",
         "twitch_url": "",
         "youtube_url": "https://www.youtube.com/@Reversalgg",
@@ -1022,6 +1107,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/set-reset-world-warrior-2024-france-2/details",
         "region_event": "France/Monaco #2",
+        "super_region": "y",
         "date": "2024-07-28",
         "bracket_start_date": "2024-07-28T14:00+02:00",
         "top8_start_date": "2024-07-28T17:00+02:00",
@@ -1034,6 +1120,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/set-reset-world-warrior-2024-france-3/details",
         "region_event": "France/Monaco #3",
+        "super_region": "y",
         "date": "2024-09-22",
         "bracket_start_date": "2024-09-22T14:00+02:00",
         "top8_start_date": "2024-09-22T17:00+02:00",
@@ -1046,6 +1133,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/set-reset-world-warrior-2024-france-4/details",
         "region_event": "France/Monaco #4",
+        "super_region": "y",
         "date": "2024-10-27",
         "bracket_start_date": "2024-10-27T14:00+02:00",
         "top8_start_date": "2024-10-27T17:00+02:00",
@@ -1058,6 +1146,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/set-reset-world-warrior-2024-france-5/details",
         "region_event": "France/Monaco #5",
+        "super_region": "y",
         "date": "2024-11-17",
         "bracket_start_date": "2024-11-17T14:00+02:00",
         "top8_start_date": "2024-11-17T17:00+02:00",
@@ -1070,6 +1159,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/set-reset-world-warrior-2024-france-final/details",
         "region_event": "France/Monaco - Regional Final",
+        "super_region": "y",
         "date": "2024-12-08",
         "bracket_start_date": "2024-12-08T17:00+02:00",
         "top8_start_date": "",
@@ -1082,9 +1172,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/impact-series-world-warrior-2024-spain-portugal-1/details",
         "region_event": "Spain/Portugal #1",
+        "super_region": "",
         "date": "2024-07-14",
         "bracket_start_date": "2024-07-14T17:00+02:00",
-        "top8_start_date": "2024-07-14T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/IMPACTLVP",
         "youtube_url": "https://www.youtube.com/channel/UCpO4aNT_ihAgcPBI3h5h8bg",
@@ -1094,9 +1185,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/impact-series-world-warrior-2024-spain-portugal-2/details",
         "region_event": "Spain/Portugal #2",
+        "super_region": "",
         "date": "2024-08-11",
         "bracket_start_date": "2024-08-11T17:00+02:00",
-        "top8_start_date": "2024-08-11T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/IMPACTLVP",
         "youtube_url": "https://www.youtube.com/channel/UCpO4aNT_ihAgcPBI3h5h8bg",
@@ -1106,9 +1198,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/impact-series-world-warrior-2024-spain-portugal-3/details",
         "region_event": "Spain/Portugal #3",
+        "super_region": "",
         "date": "2024-09-08",
         "bracket_start_date": "2024-09-08T17:00+02:00",
-        "top8_start_date": "2024-09-08T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/IMPACTLVP",
         "youtube_url": "https://www.youtube.com/channel/UCpO4aNT_ihAgcPBI3h5h8bg",
@@ -1118,9 +1211,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/impact-series-world-warrior-2024-spain-portugal-4/details",
         "region_event": "Spain/Portugal #4",
+        "super_region": "",
         "date": "2024-10-06",
         "bracket_start_date": "2024-10-06T17:00+02:00",
-        "top8_start_date": "2024-10-06T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/IMPACTLVP",
         "youtube_url": "https://www.youtube.com/channel/UCpO4aNT_ihAgcPBI3h5h8bg",
@@ -1130,9 +1224,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/impact-series-world-warrior-2024-spain-portugal-5/details",
         "region_event": "Spain/Portugal #5",
+        "super_region": "",
         "date": "2024-11-03",
         "bracket_start_date": "2024-11-03T17:00+02:00",
-        "top8_start_date": "2024-11-03T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/IMPACTLVP",
         "youtube_url": "https://www.youtube.com/channel/UCpO4aNT_ihAgcPBI3h5h8bg",
@@ -1142,6 +1237,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/impact-series-by-legion-world-warrior-2024-final-regional-fecha/details",
         "region_event": "Spain/Portugal - Regional Final",
+        "super_region": "",
         "date": "2024-11-27",
         "bracket_start_date": "",
         "top8_start_date": "",
@@ -1154,9 +1250,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-west-1/details",
         "region_event": "Europe West #1",
+        "super_region": "y",
         "date": "2024-06-30",
         "bracket_start_date": "2024-06-30T17:00+02:00",
-        "top8_start_date": "2024-06-30T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -1166,9 +1263,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-west-2/details",
         "region_event": "Europe West #2",
+        "super_region": "y",
         "date": "2024-07-28",
         "bracket_start_date": "2024-07-28T17:00+02:00",
-        "top8_start_date": "2024-07-28T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -1178,9 +1276,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-west-3/details",
         "region_event": "Europe West #3",
+        "super_region": "y",
         "date": "2024-08-18",
         "bracket_start_date": "2024-08-18T17:00+02:00",
-        "top8_start_date": "2024-08-18T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -1190,9 +1289,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-west-4/details",
         "region_event": "Europe West #4",
+        "super_region": "y",
         "date": "2024-09-29",
         "bracket_start_date": "2024-09-29T17:00+02:00",
-        "top8_start_date": "2024-09-29T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -1202,9 +1302,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-west-5/details",
         "region_event": "Europe West #5",
+        "super_region": "y",
         "date": "2024-11-03",
         "bracket_start_date": "2024-11-03T17:00+01:00",
-        "top8_start_date": "2024-11-03T19:00+01:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -1214,6 +1315,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-west-final-1/details",
         "region_event": "Europe West - Regional Final",
+        "super_region": "y",
         "date": "2024-12-08",
         "bracket_start_date": "2024-12-08T19:00+01:00",
         "top8_start_date": "",
@@ -1226,9 +1328,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-germany-1/details",
         "region_event": "Germany #1",
+        "super_region": "",
         "date": "2024-06-23",
         "bracket_start_date": "2024-06-23T17:00+02:00",
-        "top8_start_date": "2024-06-23T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -1238,9 +1341,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-germany-2/details",
         "region_event": "Germany #2",
+        "super_region": "",
         "date": "2024-07-07",
         "bracket_start_date": "2024-07-07T17:00+02:00",
-        "top8_start_date": "2024-07-07T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -1250,9 +1354,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-germany-3/details",
         "region_event": "Germany #3",
+        "super_region": "",
         "date": "2024-08-16",
         "bracket_start_date": "2024-08-16T17:00+02:00",
-        "top8_start_date": "2024-08-16T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -1262,9 +1367,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-germany-4/details",
         "region_event": "Germany #4",
+        "super_region": "",
         "date": "2024-09-22",
         "bracket_start_date": "2024-09-22T17:00+02:00",
-        "top8_start_date": "2024-09-22T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -1274,9 +1380,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-germany-5/details",
         "region_event": "Germany #5",
+        "super_region": "",
         "date": "2024-10-27",
         "bracket_start_date": "2024-10-27T17:00+01:00",
-        "top8_start_date": "2024-10-27T19:00+01:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/saltmineleague",
@@ -1286,6 +1393,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-germany-final/details",
         "region_event": "Germany - Regional Final",
+        "super_region": "",
         "date": "2024-12-01",
         "bracket_start_date": "2024-12-1T19:00+01:00",
         "top8_start_date": "",
@@ -1298,9 +1406,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-north-east-1/details",
         "region_event": "Europe North/East #1",
+        "super_region": "y",
         "date": "2024-06-29",
         "bracket_start_date": "2024-06-23T17:00+02:00",
-        "top8_start_date": "2024-06-23T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/@Reversalgg",
@@ -1310,9 +1419,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-north-east-2/details",
         "region_event": "Europe North/East #2",
+        "super_region": "y",
         "date": "2024-07-27",
         "bracket_start_date": "2024-07-27T17:00+02:00",
-        "top8_start_date": "2024-07-27T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/@Reversalgg",
@@ -1322,9 +1432,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-north-east-3/details",
         "region_event": "Europe North/East #3",
+        "super_region": "y",
         "date": "2024-08-17",
         "bracket_start_date": "2024-08-17T17:00+02:00",
-        "top8_start_date": "2024-08-17T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/@Reversalgg",
@@ -1334,9 +1445,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-north-east-4/details",
         "region_event": "Europe North/East #4",
+        "super_region": "y",
         "date": "2024-09-28",
         "bracket_start_date": "2024-09-28T17:00+02:00",
-        "top8_start_date": "2024-09-28T19:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/@Reversalgg",
@@ -1346,9 +1458,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-north-east-5/details",
         "region_event": "Europe North/East #5",
+        "super_region": "y",
         "date": "2024-11-02",
         "bracket_start_date": "2024-11-02T17:00+01:00",
-        "top8_start_date": "2024-11-02T19:00+01:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/saltmineleague",
         "youtube_url": "https://www.youtube.com/@Reversalgg",
@@ -1358,6 +1471,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/saltmine-league-world-warrior-2024-europe-north-east-final/details",
         "region_event": "Europe North/East - Regional Final",
+        "super_region": "y",
         "date": "2024-12-07",
         "bracket_start_date": "2024-11-02T19:00+01:00",
         "top8_start_date": "",
@@ -1370,6 +1484,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/slash-n-dash-world-warrior-2024-middle-east-1/details",
         "region_event": "Middle East #1",
+        "super_region": "y",
         "date": "2024-06-29",
         "bracket_start_date": "2024-06-29T14:00+04:00",
         "top8_start_date": "2024-06-29T19:30+04:00",
@@ -1382,6 +1497,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/slash-n-dash-world-warrior-2024-middle-east-2/details",
         "region_event": "Middle East #2",
+        "super_region": "y",
         "date": "2024-07-13",
         "bracket_start_date": "2024-07-13T14:00+04:00",
         "top8_start_date": "2024-07-13T19:30+04:00",
@@ -1394,6 +1510,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/slash-n-dash-world-warrior-2024-middle-east-3/details",
         "region_event": "Middle East #3",
+        "super_region": "y",
         "date": "2024-09-21",
         "bracket_start_date": "2024-09-21T14:00+04:00",
         "top8_start_date": "2024-09-21T19:30+04:00",
@@ -1406,6 +1523,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/slash-n-dash-world-warrior-2024-middle-east-4/details",
         "region_event": "Middle East #4",
+        "super_region": "y",
         "date": "2024-10-26",
         "bracket_start_date": "2024-10-26T14:00+04:00",
         "top8_start_date": "2024-10-26T19:30+04:00",
@@ -1418,6 +1536,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/slash-n-dash-world-warrior-2024-middle-east-5/details",
         "region_event": "Middle East #5",
+        "super_region": "y",
         "date": "2024-11-23",
         "bracket_start_date": "2024-11-23T14:00+04:00",
         "top8_start_date": "2024-11-23T19:30+04:00",
@@ -1430,6 +1549,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/slash-n-dash-world-warrior-2024-middle-east-regional-final/details",
         "region_event": "Middle East - Regional Final",
+        "super_region": "y",
         "date": "2024-12-07",
         "bracket_start_date": "2024-12-07T19:30+04:00",
         "top8_start_date": "",
@@ -1442,9 +1562,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/get-washed-world-warrior-2024-south-africa-1/details",
         "region_event": "South Africa #1",
+        "super_region": "",
         "date": "2024-07-06",
         "bracket_start_date": "2024-07-06T13:00+02:00",
-        "top8_start_date": "2024-07-06T15:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/randomselectevents",
         "youtube_url": "https://www.youtube.com/randomselectevents",
@@ -1454,9 +1575,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/get-washed-world-warrior-2024-south-africa-2/details",
         "region_event": "South Africa #2",
+        "super_region": "",
         "date": "2024-07-27",
         "bracket_start_date": "2024-07-27T13:00+02:00",
-        "top8_start_date": "2024-07-27T15:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/randomselectevents",
         "youtube_url": "https://www.youtube.com/randomselectevents",
@@ -1466,9 +1588,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/get-washed-world-warrior-2024-south-africa-3/details",
         "region_event": "South Africa #3",
+        "super_region": "",
         "date": "2024-08-17",
         "bracket_start_date": "2024-08-17T13:00+02:00",
-        "top8_start_date": "2024-08-17T15:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/randomselectevents",
         "youtube_url": "https://www.youtube.com/randomselectevents",
@@ -1478,9 +1601,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/get-washed-world-warrior-2024-south-africa-4/details",
         "region_event": "South Africa #4",
+        "super_region": "",
         "date": "2024-09-28",
         "bracket_start_date": "2024-09-28T13:00+02:00",
-        "top8_start_date": "2024-09-28T15:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/randomselectevents",
         "youtube_url": "https://www.youtube.com/randomselectevents",
@@ -1490,9 +1614,10 @@
     {
         "startgg_link": "https://www.start.gg/tournament/get-washed-world-warrior-2024-south-africa-5/details",
         "region_event": "South Africa #5",
+        "super_region": "",
         "date": "2024-10-26",
         "bracket_start_date": "2024-10-26T13:00+02:00",
-        "top8_start_date": "2024-10-26T15:00+02:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/randomselectevents",
         "youtube_url": "https://www.youtube.com/randomselectevents",
@@ -1502,6 +1627,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/get-washed-world-warrior-2024-south-africa-finals/details",
         "region_event": "South Africa - Regional Final",
+        "super_region": "",
         "date": "2024-11-23",
         "bracket_start_date": "2024-11-23T13:00+02:00",
         "top8_start_date": "",
@@ -1514,6 +1640,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/digital-havoc-world-warrior-2024-us-can-east-1/details",
         "region_event": "US/Canada East #1",
+        "super_region": "y",
         "date": "2024-06-21",
         "bracket_start_date": "2024-06-21T19:00-04:00",
         "top8_start_date": "2024-06-21T22:00-04:00",
@@ -1526,6 +1653,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/digital-havoc-world-warrior-2024-us-can-east-2/details",
         "region_event": "US/Canada East #2",
+        "super_region": "y",
         "date": "2024-07-12",
         "bracket_start_date": "2024-07-12T19:00-04:00",
         "top8_start_date": "2024-07-12T22:00-04:00",
@@ -1538,6 +1666,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/digital-havoc-world-warrior-2024-us-can-east-3/details",
         "region_event": "US/Canada East #3",
+        "super_region": "y",
         "date": "2024-08-16",
         "bracket_start_date": "2024-08-16T19:00-04:00",
         "top8_start_date": "2024-08-16T22:00-04:00",
@@ -1550,6 +1679,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/digital-havoc-world-warrior-2024-us-can-east-4/details",
         "region_event": "US/Canada East #4",
+        "super_region": "y",
         "date": "2024-09-06",
         "bracket_start_date": "2024-09-06T19:00-04:00",
         "top8_start_date": "2024-09-06T22:00-04:00",
@@ -1562,6 +1692,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/digital-havoc-world-warrior-2024-us-can-east-5/details",
         "region_event": "US/Canada East #5",
+        "super_region": "y",
         "date": "2024-10-25",
         "bracket_start_date": "2024-10-25T19:00-04:00",
         "top8_start_date": "2024-10-25T22:00-04:00",
@@ -1574,6 +1705,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/digital-havoc-world-warrior-2024-us-can-east-regional-final/details",
         "region_event": "US/Canada East - Regional Final",
+        "super_region": "y",
         "date": "2024-11-14",
         "bracket_start_date": "2024-11-14T20:00-04:00",
         "top8_start_date": "",
@@ -1586,6 +1718,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/super-saturdays-world-warrior-2024-us-midwest-1/details",
         "region_event": "US Midwest #1",
+        "super_region": "y",
         "date": "2024-06-22",
         "bracket_start_date": "2024-06-22T14:00-05:00",
         "top8_start_date": "2024-06-22T17:30-05:00",
@@ -1598,6 +1731,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/super-saturdays-world-warrior-2024-us-midwest-2/details",
         "region_event": "US Midwest #2",
+        "super_region": "y",
         "date": "2024-07-27",
         "bracket_start_date": "2024-07-27T14:00-05:00",
         "top8_start_date": "2024-07-27T17:30-05:00",
@@ -1610,6 +1744,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/super-saturdays-world-warrior-2024-us-midwest-3/details",
         "region_event": "US Midwest #3",
+        "super_region": "y",
         "date": "2024-08-17",
         "bracket_start_date": "2024-08-17T14:00-05:00",
         "top8_start_date": "2024-08-17T17:30-05:00",
@@ -1622,6 +1757,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/super-saturdays-world-warrior-2024-us-midwest-4/details",
         "region_event": "US Midwest #4",
+        "super_region": "y",
         "date": "2024-09-21",
         "bracket_start_date": "2024-09-21T14:00-05:00",
         "top8_start_date": "2024-09-21T17:30-05:00",
@@ -1634,6 +1770,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/super-saturdays-world-warrior-2024-us-midwest-5/details",
         "region_event": "US Midwest #5",
+        "super_region": "y",
         "date": "2024-11-23",
         "bracket_start_date": "2024-11-23T14:00-05:00",
         "top8_start_date": "2024-11-23T17:30-05:00",
@@ -1646,6 +1783,7 @@
     {
         "startgg_link": "https://www.start.gg/tournament/super-saturdays-world-warrior-2024-us-midwest-regional-final/details",
         "region_event": "US Midwest - Regional Final",
+        "super_region": "y",
         "date": "2024-12-07",
         "bracket_start_date": "2024-12-07T19:00-05:00",
         "top8_start_date": "",
@@ -1656,11 +1794,12 @@
         "": ""
     },
     {
-        "startgg_link": "",
+        "startgg_link": "https://www.start.gg/tournament/wnf-world-warrior-2024-us-can-west-1/details",
         "region_event": "US/Canada West #1",
+        "super_region": "y",
         "date": "2024-07-24",
         "bracket_start_date": "2024-07-24T19:00-07:00",
-        "top8_start_date": "2024-07-24T21:00-07:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/leveluplive",
         "youtube_url": "https://www.youtube.com/levelupseries",
@@ -1668,11 +1807,12 @@
         "": ""
     },
     {
-        "startgg_link": "",
+        "startgg_link": "https://www.start.gg/tournament/wnf-world-warrior-2024-us-can-west-2/details",
         "region_event": "US/Canada West #2",
+        "super_region": "y",
         "date": "2024-08-21",
         "bracket_start_date": "2024-08-21T19:00-07:00",
-        "top8_start_date": "2024-08-21T21:00-07:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/leveluplive",
         "youtube_url": "https://www.youtube.com/levelupseries",
@@ -1680,11 +1820,12 @@
         "": ""
     },
     {
-        "startgg_link": "",
+        "startgg_link": "https://www.start.gg/tournament/wnf-world-warrior-2024-us-can-west-3/details",
         "region_event": "US/Canada West #3",
+        "super_region": "y",
         "date": "2024-09-18",
         "bracket_start_date": "2024-09-18T19:00-07:00",
-        "top8_start_date": "2024-09-18T21:00-07:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/leveluplive",
         "youtube_url": "https://www.youtube.com/levelupseries",
@@ -1692,11 +1833,12 @@
         "": ""
     },
     {
-        "startgg_link": "",
+        "startgg_link": "https://www.start.gg/tournament/wnf-world-warrior-2024-us-can-west-4/details",
         "region_event": "US/Canada West #4",
+        "super_region": "y",
         "date": "2024-10-23",
         "bracket_start_date": "2024-10-23T19:00-07:00",
-        "top8_start_date": "2024-10-23T21:00-07:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/leveluplive",
         "youtube_url": "https://www.youtube.com/levelupseries",
@@ -1704,11 +1846,12 @@
         "": ""
     },
     {
-        "startgg_link": "",
+        "startgg_link": "https://www.start.gg/tournament/wnf-world-warrior-2024-us-can-west-5/details",
         "region_event": "US/Canada West #5",
+        "super_region": "y",
         "date": "2024-11-20",
         "bracket_start_date": "2024-11-20T19:00-07:00",
-        "top8_start_date": "2024-11-21T21:00-07:00",
+        "top8_start_date": "",
         "other_url": "",
         "twitch_url": "https://www.twitch.tv/leveluplive",
         "youtube_url": "https://www.youtube.com/levelupseries",
@@ -1716,8 +1859,9 @@
         "": ""
     },
     {
-        "startgg_link": "",
+        "startgg_link": "https://www.start.gg/tournament/wnf-world-warrior-2024-us-can-west-regional-final/details",
         "region_event": "US/Canada West - Regional Final",
+        "super_region": "y",
         "date": "2024-12-04",
         "bracket_start_date": "2024-12-04T19:00-07:00",
         "top8_start_date": "",
