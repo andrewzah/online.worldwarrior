@@ -7,7 +7,7 @@ in
 rec {
   img = pkgs.dockerTools.buildImage {
     name = "docker.io/andrewzah/online.worldwarrior";
-    tag = "0.5.1";
+    tag = "0.6.0";
 
     copyToRoot = pkgs.buildEnv {
       name = "img-root";

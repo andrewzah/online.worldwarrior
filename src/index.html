@@ -51,6 +51,7 @@
         border: 2px solid #333;
         border-radius: 2px;
       }
+      .is-hidden { display: none; }
     </style>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script async>
@@ -94,6 +95,7 @@
         data.forEach((object) => {
           // Create a new div for each object
           const newDiv = document.createElement('div');
+          newDiv.classList.add('event');
 
           const relBracketDate = new Date(object.bracket_start_date)
           const relBracketDateText = moment(relBracketDate).from(momentCurrentDate);
@@ -146,8 +148,31 @@
         const pastEvents = events.filter((ev) => ev.date < currentDate);
         const futureEvents = events.filter((ev) => ev.date >= currentDate);
 
+
+        futureHeader = document.createElement('h1');
+        futureHeader.innerText = `${futureEvents.length} Upcoming Events`;
+        futureEventsContainer.append(futureHeader);
+
+        pastHeader = document.createElement('h1');
+        pastHeader.innerText = `${pastEvents.length} Finished Events`;
+        pastEventsContainer.append(pastHeader);
+
         futureEvents.forEach((ev) => { futureEventsContainer.appendChild(ev.div); });
         pastEvents.forEach((ev) => { pastEventsContainer.appendChild(ev.div); });
+      };
+
+      const liveSearch = () => {
+        let events = document.querySelectorAll('.event');
+        let query = document.getElementById("searchbox").value;
+
+        for (var i = 0; i < events.length; i++) {
+          if(events[i].children[0].innerHTML.toLowerCase()
+            .includes(query.toLowerCase())) {
+              events[i].classList.remove("is-hidden");
+          } else {
+            events[i].classList.add("is-hidden");
+          }
+        }
       };
     </script>
   </head>
@@ -164,8 +189,14 @@
         </p>
         <p id="data-user-timezone"></p>
       </div>
-    <hr>
-    <h1> Upcoming Events </h1>
+    <hr/>
+    <label for="searchbox">Search:</label>
+    <input
+      type="search" 
+      oninput="liveSearch()" 
+      id="searchbox" 
+    >
+    <hr/>
     <div id="data-future-events"></div>
     <hr>
     <h1> Past Events </h1>
@@ -173,5 +204,11 @@
     </div>
     <script data-goatcounter="https://stats.worldwarrior.online/count"
             async src="//stats.worldwarrior.online/count.js"></script>
+    <noscript>
+      <p>
+      It appears that you have javascript disabled. The data on this site is dynamically generated
+      <a href="https://docs.google.com/spreadsheets/d/1Sk6cbuIYVhQx81ZfyJoYlu8sZsMsuWD-PCN-LT5Sjxc/edit?usp=sharing">from this spreadsheet</a>.
+      </p>
+    </noscript>
   </body>
 </html>
